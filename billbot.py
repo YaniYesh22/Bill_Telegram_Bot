@@ -1,4 +1,3 @@
-# 7215985923:AAG8446-2MO-_EKTTz16yXvvNoKHoxunGD4
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 import os
@@ -154,7 +153,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Start the bot."""
     # Replace 'YOUR_BOT_TOKEN' with your actual bot token from BotFather
-    application = Application.builder().token('7215985923:AAG8446-2MO-_EKTTz16yXvvNoKHoxunGD4').build()
+    application = Application.builder().token('Change to your telegram bot token').build()
 
     # Add conversation handler
     conv_handler = ConversationHandler(
